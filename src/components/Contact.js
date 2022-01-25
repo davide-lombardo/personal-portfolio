@@ -1,15 +1,16 @@
 import { useState } from 'react'
 import emailjs from 'emailjs-com'
-
 import contactImg from '../img/contactImg.png'
 import { VscError } from 'react-icons/vsc'
-
 import classNames from 'classnames';
 
 
 const Contact = () => {
+
     const [ error, setError ] = useState('')
-    const [ IsItemRemoved, setIsItemRemoved ] = useState(false)
+    const [ success, setSuccess ] = useState('')
+    const [ isItemRemoved, setIsItemRemoved ] = useState(false)
+
 
     const [ formState, setFormState ] = useState({
         name: '',
@@ -33,13 +34,14 @@ const Contact = () => {
             emailjs.sendForm('default_service', 'template_8sf33ta', formState.current, process.env.REACT_APP_EMAILJS_USER_ID)
             .then((result) => {
                 console.log(result.text);
+                setSuccess('Invio riuscito')
             }, (error) => {
-                console.error(error.text);
+                console.log(error.text);
             });
         } catch {
             setError('Oops, Invio non riuscito')
         }
-        setFormState({email: '', name: '', message: ''})
+        setFormState({name: '', email: '', message: ''})
     };
 
     return (
@@ -55,15 +57,29 @@ const Contact = () => {
                         <form onSubmit={handleSubmit} className='flex flex-col'>
                             <div className="p-1 w-full">
                             {
-                                error && 
-                                <div className={classNames(["bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-4 relative" 
-                                    + (IsItemRemoved ? " hidden" : " flex")])}
+                                (error) ?
+                                <div role="alert" className={classNames([
+                                    "bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-4 relative" 
+                                    + (isItemRemoved ? " hidden" : " flex")
+                                    ])}
                                 >
                                     {error}
                                     <span className="absolute top-0 bottom-0 right-0 px-4 py-3">
-                                        <VscError onClick={() => setIsItemRemoved(!IsItemRemoved)} className='cursor-pointer hover:opacity-50 fill-current h-6 w-6 text-red-500'/>
+                                        <VscError onClick={() => setIsItemRemoved(!isItemRemoved)} className='cursor-pointer hover:opacity-50 fill-current h-6 w-6 text-red-500'/>
                                     </span>
-                                </div>
+                                </div> 
+                                
+                                : (success) ?
+                                <div role="alert" className={classNames([
+                                    "bg-teal-100 border border-teal-500 text-teal-900 px-4 py-3 rounded mb-4 relative" 
+                                    + (isItemRemoved ? " hidden" : " flex")
+                                    ])}
+                                >
+                                    {success}
+                                    <span className="absolute top-0 bottom-0 right-0 px-4 py-3">
+                                        <VscError onClick={() => setIsItemRemoved(!isItemRemoved)} className='cursor-pointer hover:opacity-50 fill-current h-6 w-6 text-teal-900'/>
+                                    </span>
+                                </div> : null
                             }
                                 <div className="relative">
                                     <label htmlFor="name" className="leading-7 text-sm text-gray-600">Nome Completo</label>
@@ -136,7 +152,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-left" data-aos-duration="1500" className='flex justify-center lg:justify-end mt-20'>
+                <div className='flex justify-center lg:justify-end mt-20'>
                     <img 
                         src={contactImg} 
                         alt="contactImg"
