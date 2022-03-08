@@ -12,7 +12,7 @@ const CardContainer = () => {
             <h1 className="secondary-title mt-44 ml-20 text-gray-900">I miei progetti</h1>
         </div>
         <section className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-16 mx-20 z-10" id="projects">
-            <div data-aos="flip-left" data-aos-duration="2000" className="card">
+            <div className="card">
                 <img
                     src={fakeShopThumb}
                     alt="book search thumbnail"
@@ -37,7 +37,7 @@ const CardContainer = () => {
                 </div>
             </div>
 
-            <div data-aos="flip-right" data-aos-duration="2000" className="card">
+            <div className="card">
                 <img
                     src={bookSearchThumb}
                     alt=""
@@ -65,7 +65,7 @@ const CardContainer = () => {
                 </div>
             </div>
             
-            <div data-aos="flip-left" data-aos-duration="2000" className="card">
+            <div className="card">
                 <img
                     src={globalPollutionThumb}
                     alt=""

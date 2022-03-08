@@ -20,55 +20,55 @@ const Skills = () => {
             </div>
             <div className="grid gap-3 md:grid-cols-3 mx-20 pb-5" id="skills">
                 <div data-aos="zoom-in" data-aos-duration="500"  className="w-full">
-                    <div className="bg-gray-200 rounded flex p-4 h-full items-center">
+                    <div className="bg-white border border-black rounded flex p-4 h-full items-center">
                         <RiHtml5Line className='w-6 h-6'/>
                         <span className="title-font font-medium ml-3">HTML</span>
                     </div>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="1000"  className="w-full">
-                    <div className="bg-gray-200 rounded flex p-4 h-full items-center">
+                    <div className="bg-white border border-black rounded flex p-4 h-full items-center">
                         <RiCss3Fill className='w-6 h-6'/>
                         <span className="title-font font-medium ml-3">CSS</span>
                     </div>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="1000" className="w-full">
-                    <div className="bg-gray-200 rounded flex p-4 h-full items-center">
+                    <div className="bg-white border border-black rounded flex p-4 h-full items-center">
                         <SiJavascript className='w-6 h-6'/>
                         <span className="title-font font-medium ml-3">Javascript</span>
                     </div>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="1000"  className="w-full">
-                    <div className="bg-gray-200 rounded flex p-4 h-full items-center">
+                    <div className="bg-white border border-black rounded flex p-4 h-full items-center">
                         <RiReactjsLine className='w-6 h-6'/>
                         <span className="title-font font-medium ml-3">React</span>
                         </div>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="1000"  className="w-full">
-                    <div className="bg-gray-200 rounded flex p-4 h-full items-center">
+                    <div className="bg-white border border-black rounded flex p-4 h-full items-center">
                         <SiRedux className='w-6 h-6'/>
                         <span className="title-font font-medium ml-3">Redux</span>
                     </div>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="1000"  className="w-full">
-                    <div className="bg-gray-200 rounded flex p-4 h-full items-center">
+                    <div className="bg-white border border-black rounded flex p-4 h-full items-center">
                         <SiTailwindcss className='w-6 h-6'/>
                         <span className="title-font font-medium ml-3">Tailwind</span>
                     </div>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="1000"  className="w-full">
-                    <div className="bg-gray-200 rounded flex p-4 h-full items-center">
+                    <div className="bg-white border border-black rounded flex p-4 h-full items-center">
                         <SiGithub className='w-6 h-6'/>
                         <span className="title-font font-medium ml-3">Github</span>
                     </div>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="1000"  className="w-full">
-                    <div className="bg-gray-200 rounded flex p-4 h-full items-center">
+                    <div className="bg-white border border-black rounded flex p-4 h-full items-center">
                         <SiBootstrap className='w-6 h-6'/>
                         <span className="title-font font-medium ml-3">Bootstrap</span>
                     </div>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="1000" className="w-full">
-                    <div className="bg-gray-200 rounded flex p-4 h-full items-center">
+                    <div className="bg-white border border-black rounded flex p-4 h-full items-center">
                         <SiWordpress className='w-6 h-6'/>
                         <span className="title-font font-medium ml-3">Wordpress</span>
                     </div>

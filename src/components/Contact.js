@@ -136,10 +136,10 @@ const Contact = () => {
                 <div className="flex flex-col p-4 pt-8 mt-8 border-t border-gray-200">
                     <span className='inline-flex justify-center'>
                         <a href='https://github.com/davide-lombardo' rel="noopener noreferrer" target="_blank">
-                            <SiGithub className='w-7 h-7 fill-orange-300 hover:fill-orange-100'/>
+                            <SiGithub className='w-7 h-7 fill-black hover:opacity-80'/>
                         </a>
                         <a href='https://www.linkedin.com/in/davide-lombardo-profile/' rel="noopener noreferrer" target="_blank">
-                            <RiLinkedinBoxFill className='ml-4 w-8 h-8 fill-orange-300 hover:fill-orange-100'/>
+                            <RiLinkedinBoxFill className='ml-4 w-8 h-8 fill-black hover:opacity-80'/>
                         </a>
                     </span>
                 </div>
