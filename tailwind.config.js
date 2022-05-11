@@ -22,7 +22,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        body: ['Montserrat']
+        body: ['Commissioner'],
+        display: ['Fraunces'],
       },
     },
   },

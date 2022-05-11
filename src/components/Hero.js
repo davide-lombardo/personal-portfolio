@@ -9,7 +9,7 @@ const Hero = () => {
                 data-aos="fade-up"
                 data-aos-duration="2500" 
                 className="md:ml-20 flex lg:flex-grow md:w-1/2 lg:pr-20 md:pr-20 flex-col md:items-start items-center md:text-left text-center mb-16 md:mb-0">
-                <h1 className="text-5xl md:text-4xl lg:text-5xl mb-4 font-extrabold">Sviluppo esperienze che lasciano il segno.</h1>
+                <h1 className="text-5xl md:text-4xl lg:text-5xl mb-4 font-display font-extrabold ">Sviluppo esperienze che lasciano il segno.</h1>
                 <p className="mb-7 leading-relaxed font-medium">Davide Lombardo - Frontend Developer.</p>
                 <div className="flex justify-center flex-row md:flex-col lg:flex-row">
                     <button className="hero-cta bg-sky-300 hover:bg-sky-200 mr-2">

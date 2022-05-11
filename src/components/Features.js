@@ -15,13 +15,13 @@ const Features = () => {
                     </div>
                     <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
                         <h2 className="text-gray-900 text-lg font-medium mb-2">Veloce</h2>
-                        <p className="leading-relaxed text-base font-light mx-24 sm:mx-0">Tempi di caricamento in un batter d'occhio.</p>
+                        <p className="leading-relaxed text-base font-normal mx-24 sm:mx-0">Tempi di caricamento in un batter d'occhio.</p>
                     </div>
                 </div>
                 <div data-aos="fade-left" data-aos-duration="1500" className="flex items-center sm:flex-row flex-col border-b pb-10 mb-10 border-gray-200">
                     <div className="sm:text-left text-center mt-6 sm:mt-0">
                         <h2 className="text-gray-900 text-lg font-medium mb-2">Dinamico</h2>
-                        <p className="leading-relaxed text-base font-light mx-24 sm:mx-0">Basta siti noiosi, benvenute caratteristiche uniche.</p>
+                        <p className="leading-relaxed text-base font-normal mx-24 sm:mx-0">Basta siti noiosi, benvenute caratteristiche uniche.</p>
                     </div>
                     <div className="sm:ml-10 sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 inline-flex items-center justify-center rounded-full bg-sky-300 flex-shrink-0">
                         <HiPresentationChartLine className="sm:w-16 sm:h-16 w-10 h-10 text-blue-300"/>
@@ -33,7 +33,7 @@ const Features = () => {
                     </div>
                     <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
                         <h2 className="text-gray-900 text-lg font-medium mb-2">Intuitivo</h2>
-                        <p className="leading-relaxed text-base font-light mx-24 sm:mx-0">Facile da usare, UX/UI intuitiva per tutti.</p>
+                        <p className="leading-relaxed text-base font-normal mx-24 sm:mx-0">Facile da usare, UX/UI intuitiva per tutti.</p>
                     </div>
                 </div>
             </div>

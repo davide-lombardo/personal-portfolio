@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&family=Fraunces:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -17,10 +17,6 @@ html {
     height: 100%;
     overflow-x: hidden;
     scroll-behavior: smooth; 
-}
-
-body {
-    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -80,7 +76,7 @@ p {
 }
 
 .contact-cta {
-    @apply tracking-wider pr-2 ml-2 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75 border-2 border-gray-400 rounded-md;                                  
+    @apply tracking-wider pr-2 ml-2 py-2 flex items-center text-xs uppercase font-extrabold leading-snug text-black hover:opacity-75 border-2 border-gray-400 rounded-md;                                  
 }
 
 .hero-cta {

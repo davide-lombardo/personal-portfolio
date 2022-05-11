@@ -22,7 +22,7 @@ const CardContainer = () => {
                     <h3 className="font-semibold text-xl text-left mb-4 block"> 
                         Fake Shop
                     </h3>
-                    <p className="text-left text-base font-light leading-relaxed mb-7">
+                    <p className="text-left text-base font-normal leading-relaxed mb-7">
                         Ricerca un prodotto e mettilo nel carrello.
                     </p>
                     <div className='flex lg:flex-col justify-around'>
@@ -47,7 +47,7 @@ const CardContainer = () => {
                     <h3 className="font-semibold text-xl text-left mb-4 block"> 
                         Book Finder
                     </h3>
-                    <p className="text-left text-base font-light text-gray-900 leading-relaxed mb-7">
+                    <p className="text-left text-base font-normal text-gray-900 leading-relaxed mb-7">
                         Ricerca qualsiasi libro che ti viene in mente.
                     </p>
                     <div>
@@ -75,7 +75,7 @@ const CardContainer = () => {
                     <h3 className="font-semibold text-xl text-left mb-4 block"> 
                         Global Pollution
                     </h3>
-                    <p className="text-left text-base font-light text-gray-900 leading-relaxed mb-7">
+                    <p className="text-left text-base font-normal text-gray-900 leading-relaxed mb-7">
                        Recupera i dati sull'inquinamento.
                     </p>
                     <div className='flex lg:flex-col justify-around'>
