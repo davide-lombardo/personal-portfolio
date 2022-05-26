@@ -23,7 +23,7 @@ const Navbar = () => {
               />
             </Link>
             <button
-              className="text-black cursor-pointer text-xl leading-none px-3 py-0 lg:hidden block"
+              className="text-gray-900 cursor-pointer text-xl leading-none px-3 py-0 lg:hidden block"
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
@@ -41,7 +41,7 @@ const Navbar = () => {
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
                 <a
-                  className="tracking-wider px-3 py-2 flex items-center text-xs uppercase font-extrabold leading-snug text-black hover:opacity-75"
+                  className="tracking-wider px-3 py-2 flex items-center text-xs uppercase font-extrabold leading-snug text-gray-900 hover:opacity-75"
                   href="#projects"
                 >
                   <span className="ml-2">Progetti</span>
@@ -49,7 +49,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a
-                  className="tracking-wider px-3 py-2 flex items-center text-xs uppercase font-extrabold leading-snug text-black hover:opacity-75"
+                  className="tracking-wider px-3 py-2 flex items-center text-xs uppercase font-extrabold leading-snug text-gray-900 hover:opacity-75"
                   href="#about-me"
                 >
                   <span className="ml-2">Chi sono</span>

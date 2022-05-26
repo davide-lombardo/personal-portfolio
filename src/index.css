@@ -16,7 +16,8 @@ html {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
+    background-color: #f8fafc; 
 }
 
 h1 {
@@ -66,6 +67,9 @@ p {
 .card {
     @apply rounded-lg shadow-xl hover:shadow-2xl overflow-hidden hover:-translate-y-1 duration-300;
 }
+.tag {
+    @apply text-xs items-center font-bold uppercase px-3 py-1 mb-5 bg-gray-900 text-gray-100 rounded-sm;
+}
 
 .badge-1 {
     @apply items-center rounded-full text-2xl py-2 px-12 lg:mt-3 flex justify-center cursor-pointer border border-gray-300 hover:border-sky-300 hover:bg-sky-300 hover:text-white;
@@ -76,7 +80,7 @@ p {
 }
 
 .contact-cta {
-    @apply tracking-wider pr-2 ml-2 py-2 flex items-center text-xs uppercase font-extrabold leading-snug text-black hover:opacity-75 border-2 border-gray-400 rounded-md;                                  
+    @apply tracking-wider pr-2 ml-2 py-2 flex items-center text-xs uppercase font-extrabold leading-snug text-gray-900 hover:opacity-75 border-2 border-gray-400 rounded-md;                                  
 }
 
 .hero-cta {

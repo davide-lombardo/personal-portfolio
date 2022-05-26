@@ -38,7 +38,7 @@ const Home = () => {
         <Navbar />
         <div className='grid grid-cols-1 min-h-screen'> 
             <main className='grid md:grid-cols-12'>
-                <aside className="md:col-span-1 bg-white"></aside>
+                <aside className="md:col-span-1 "></aside>
                 <article className="md:col-span-10">
                     <Hero/>
                     <Skills/>
@@ -46,7 +46,7 @@ const Home = () => {
                     <CardContainer />
                     <Contact/>
                 </article>
-                <aside className="md:col-span-1 bg-white"></aside>
+                <aside className="md:col-span-1"></aside>
                 <Tabbar />
             </main>
         </div>
