@@ -4,10 +4,25 @@
 @tailwind components;
 @tailwind utilities;
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0; 
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -18,6 +33,13 @@ html {
     overflow-x: hidden;
     scroll-behavior: smooth;
     background-color: #f8fafc; 
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
 }
 
 h1 {
@@ -80,7 +102,7 @@ p {
 }
 
 .contact-cta {
-    @apply tracking-wider pr-2 ml-2 py-2 flex items-center text-xs uppercase font-extrabold leading-snug text-gray-900 hover:opacity-75 border-2 border-gray-400 rounded-md;                                  
+    @apply tracking-wider pr-2 ml-2 py-2 flex items-center text-xs font-extrabold leading-snug text-gray-900 hover:opacity-75 border-2 border-gray-400 rounded-md;                                  
 }
 
 .hero-cta {
@@ -91,4 +113,9 @@ p {
     @apply w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-orange-300 focus:bg-white focus:ring-2 focus:ring-orange-100 text-base outline-none py-1 px-3 text-gray-700 resize-none leading-8 transition-colors duration-200 ease-in-out;                                
 }
 
+/* .dark-mode {
+    color: #121212;
+    color: #181818;
+    color: #404040;
+} */
  

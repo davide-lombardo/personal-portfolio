@@ -50,6 +50,24 @@ const CardContainer = () => {
                 filter1="Angular"
                 filter2="Tailwind"
             />
+            <Card 
+                thumbnail="https://images.unsplash.com/photo-1614332287897-cdc485fa562d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                title="Coming soon"
+                description="Lavori in corso, niente da vedere qui."
+                githubUrl="https://github.com/davide-lombardo"
+                demoUrl="/"
+                filter1="dummy"
+                filter2="dummy"
+            />
+            <Card 
+                thumbnail="https://images.unsplash.com/photo-1614332287897-cdc485fa562d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                title="Coming soon"
+                description="Lavori in corso, niente da vedere qui."
+                githubUrl="https://github.com/davide-lombardo"
+                demoUrl="/"
+                filter1="dummy"
+                filter2="dummy"
+            />
         </section>
     </>
     )

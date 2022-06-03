@@ -1,4 +1,4 @@
-import heroImg from '../img/hero.png';
+import heroImg from '../img/hero.webp';
 import { AiOutlineEye } from 'react-icons/ai'
 
 

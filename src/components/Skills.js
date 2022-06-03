@@ -29,7 +29,7 @@ const Skills = () => {
                 </p>
                 <h2 className="font-medium text-lg text-left leading-relaxed">Alcune mie competenze:</h2>
             </div>
-            <div className="grid gap-3 md:grid-cols-3 mx-20 pb-5" id="skills">
+            <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3 mx-20 pb-5" id="skills">
                 <div data-aos="zoom-in" data-aos-duration="1000" className="w-full">
                     <div className="bg-white border border-black rounded flex flex-col p-4 h-full items-center">
                         <div className="flex-row w-full flex justify-between items-center">

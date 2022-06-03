@@ -50,7 +50,7 @@ const Contact = () => {
             <div className="lg:pb-16 lg:px-20">
                 <div className="mb-10 flex flex-col justify-items-center mx-6">
                     <h1 className="secondary-title">Vuoi parlare con me?</h1>
-                    <p className=" leading-relaxed text-base font-medium">Ottima scelta, rispondo dopo i pasti.</p>
+                    <p className=" leading-relaxed text-base font-medium">Ottima scelta, rispondo dopo i pasti. &#x1F609; &#9996;</p>
                 </div>
             
                 <div className="flex justify-center">
@@ -83,12 +83,12 @@ const Contact = () => {
                                 </div> : null
                             }
                                 <div className="relative">
-                                    <label htmlFor="name" className="leading-7 text-sm text-gray-600">Nome Completo</label>
+                                    <label htmlFor="name" className="leading-7 text-sm text-gray-600">Nome e cognome</label>
                                     <input 
                                         type="text" 
                                         id="name" 
                                         name="name"
-                                        placeholder='Nome Completo'
+                                        placeholder='Nome e cognome'
                                         onChange={handleChange}
                                         value={name || ''} 
                                         required 
@@ -118,7 +118,7 @@ const Contact = () => {
                                         type="text"
                                         id="message" 
                                         name="message"
-                                        placeholder='Email'
+                                        placeholder='Messaggio'
                                         onChange={handleChange}
                                         value={message || ''} 
                                         required 
