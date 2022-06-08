@@ -1,11 +1,9 @@
-//resize logo and logomark
-
-import logomark from '../img/logomark.svg';
 import classNames from 'classnames';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import logomark from '../img/logomark.svg';
 
-import { useState } from 'react'
 
-import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 

@@ -1,5 +1,5 @@
+import { AiOutlineEye } from 'react-icons/ai';
 import heroImg from '../img/hero.webp';
-import { AiOutlineEye } from 'react-icons/ai'
 
 
 const Hero = () => {
@@ -12,14 +12,18 @@ const Hero = () => {
                 <h1 className="text-5xl md:text-4xl lg:text-5xl mb-4 font-display font-extrabold ">Sviluppo esperienze che lasciano il segno.</h1>
                 <p className="mb-7 leading-relaxed font-medium">Davide Lombardo - Frontend Developer.</p>
                 <div className="flex justify-center flex-row md:flex-col lg:flex-row">
-                    <button className="hero-cta bg-sky-300 hover:bg-sky-200 mr-2">
-                        <AiOutlineEye className='mr-2'/>
-                        <a href="#projects">i miei progetti</a> 
-                    </button>
-                    <button className="hero-cta bg-orange-300 hover:bg-orange-200 mt-1 lg:mt-0">
-                        <AiOutlineEye className='mr-2'/>
-                        <a href="#skills">le mie skill</a> 
-                    </button>
+                    <a 
+                        href="#projects"
+                        className="hero-cta bg-sky-300 hover:bg-sky-200 mr-2"
+                    >
+                        <AiOutlineEye className='mr-2'/> i miei progetti 
+                    </a>
+                    <a 
+                        href="#skills" 
+                        className="hero-cta bg-orange-300 hover:bg-orange-200 mt-1 lg:mt-0"
+                    >
+                        <AiOutlineEye className='mr-2'/> le mie skill
+                    </a>
                 </div>
             </div>
             <div 
