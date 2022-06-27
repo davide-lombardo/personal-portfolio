@@ -15,9 +15,9 @@ const Card = (props) => {
                     <span className="tag">{props.filter1}</span>
                     <span className="ml-2 tag">{props.filter2}</span>
                 </div>
-                <h3 className="font-semibold text-xl text-left mb-4 block"> 
+                <h2 className="font-semibold text-xl text-left mb-4 block"> 
                     {props.title}
-                </h3>
+                </h2>
                 <p className="text-left text-base font-normal leading-relaxed mb-7">
                     {props.description}
                 </p>

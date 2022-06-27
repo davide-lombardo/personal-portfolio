@@ -1,10 +1,10 @@
-import { useState } from 'react'
-import emailjs from 'emailjs-com'
-import contactImg from '../img/contactImg.png'
-import { VscError } from 'react-icons/vsc'
 import classNames from 'classnames';
-import { SiGithub } from 'react-icons/si'
-import { RiLinkedinBoxFill } from 'react-icons/ri'
+import emailjs from 'emailjs-com';
+import { useState } from 'react';
+import { RiLinkedinBoxFill } from 'react-icons/ri';
+import { SiGithub } from 'react-icons/si';
+import { VscError } from 'react-icons/vsc';
+import contactImg from '../img/contactImg.webp';
 
 const Contact = () => {
 

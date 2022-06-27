@@ -1,8 +1,8 @@
-import bookSearchThumb from '../img/bookSearchThumb.png';
-import globalPollutionThumb from '../img/globalPollutionThumb.png';
-import fakeShopThumb from '../img/fakeShopThumb.png';
+import bookSearchThumb from '../img/bookSearchThumb.webp';
+import fakeShopThumb from '../img/fakeShopThumb.webp';
+import globalPollutionThumb from '../img/globalPollutionThumb.webp';
 
-import Card from "./Card"
+import Card from "./Card";
 
 
 const CardContainer = () => {
@@ -10,10 +10,10 @@ const CardContainer = () => {
     return (
     <>
         <div>
-            <h1 className="secondary-title mt-44 ml-20 text-gray-900">I miei progetti</h1>
+            <h1 id="projects" className="secondary-title mt-44 ml-20 text-gray-900">I miei progetti</h1>
         </div>
        
-        <section className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-16 mx-20 z-10" id="projects">
+        <section className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-16 mx-20 z-10">
             <Card 
                 thumbnail={fakeShopThumb}
                 title="Fake Shop"
