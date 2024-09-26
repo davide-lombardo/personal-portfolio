@@ -56,7 +56,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a
-                  className="contact-cta bg-sky-100 md:bg-white"
+                  className="contact-cta bg-white"
                   href="#contact"
                 >
                   <span className="ml-2">Contattami &nbsp; &gt;</span>

@@ -1,6 +1,5 @@
 import bookSearchThumb from '../img/bookSearchThumb.webp';
 import fakeShopThumb from '../img/fakeShopThumb.webp';
-import globalPollutionThumb from '../img/globalPollutionThumb.webp';
 
 import Card from "./Card";
 
@@ -33,15 +32,6 @@ const CardContainer = () => {
                 filter2="Redux"
             />
             <Card 
-                thumbnail={globalPollutionThumb}
-                title="Global Pollution"
-                description="Recupera i dati sull'inquinamento."
-                githubUrl="https://github.com/davide-lombardo/pollution-global"
-                demoUrl="https://pollution-global.netlify.app/"
-                filter1="VanillaJS"
-                filter2="Webpack"
-            />
-            <Card 
                 thumbnail="https://images.unsplash.com/photo-1487528278747-ba99ed528ebc?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870"
                 title="Job Hunting"
                 description="Visualizza e filtra le offerte di lavoro."
@@ -49,24 +39,6 @@ const CardContainer = () => {
                 demoUrl="https://job-hunting-e440e.web.app/job-list"
                 filter1="Angular"
                 filter2="Tailwind"
-            />
-            <Card 
-                thumbnail="https://images.unsplash.com/photo-1614332287897-cdc485fa562d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                title="Coming soon"
-                description="Lavori in corso, niente da vedere qui."
-                githubUrl="https://github.com/davide-lombardo"
-                demoUrl="/"
-                filter1="dummy"
-                filter2="dummy"
-            />
-            <Card 
-                thumbnail="https://images.unsplash.com/photo-1614332287897-cdc485fa562d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                title="Coming soon"
-                description="Lavori in corso, niente da vedere qui."
-                githubUrl="https://github.com/davide-lombardo"
-                demoUrl="/"
-                filter1="dummy"
-                filter2="dummy"
             />
         </section>
     </>

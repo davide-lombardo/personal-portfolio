@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { RiLinkedinBoxFill } from 'react-icons/ri';
 import { SiGithub } from 'react-icons/si';
 import { VscError } from 'react-icons/vsc';
-import contactImg from '../img/contactImg.webp';
 
 const Contact = () => {
 
@@ -138,17 +137,13 @@ const Contact = () => {
                         <a href='https://github.com/davide-lombardo' rel="noopener noreferrer" target="_blank">
                             <SiGithub className='w-7 h-7 fill-black hover:opacity-80'/>
                         </a>
-                        <a href='https://www.linkedin.com/in/davide-lombardo-profile/' rel="noopener noreferrer" target="_blank">
+                        <a href='https://www.linkedin.com/in/lombardo-davide/' rel="noopener noreferrer" target="_blank">
                             <RiLinkedinBoxFill className='ml-4 w-8 h-8 fill-black hover:opacity-80'/>
                         </a>
                     </span>
                 </div>
                 <div className='flex justify-center lg:justify-end mt-20 mb-20'>
-                    <img 
-                        src={contactImg} 
-                        alt="contactImg"
-                        className='w-1/2 lg:w-1/3'        
-                    />
+                    <h4 className="text-5xl md:text-4xl lg:text-5xl mb-4 font-display font-extrabold">Davide Lombardo</h4>
                 </div>
             </div>
         </section>

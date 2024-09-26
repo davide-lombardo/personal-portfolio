@@ -4,7 +4,6 @@ import 'aos/dist/aos.css';
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Tabbar from '../components/Tabbar'
-import Features from '../components/Features'
 import Contact from '../components/Contact'
 import Hero from '../components/Hero'
 import CardContainer from '../components/CardContainer'
@@ -35,22 +34,21 @@ const Home = () => {
   
     return (
         <>
-        <Navbar />
-        <div className='grid grid-cols-1 min-h-screen'> 
-            <main className='grid md:grid-cols-12'>
-                <aside className="md:col-span-1 "></aside>
-                <article className="md:col-span-10">
-                    <Hero/>
-                    <Skills/>
-                    <Features />
-                    <CardContainer />
-                    <Contact/>
-                </article>
-                <aside className="md:col-span-1"></aside>
-                <Tabbar />
-            </main>
-        </div>
-        <Footer />  
+            <Navbar />
+                <div className='grid grid-cols-1 min-h-screen'> 
+                    <main className='grid md:grid-cols-12'>
+                        <aside className="md:col-span-1 "></aside>
+                        <article className="md:col-span-10">
+                            <Hero/>
+                            <Skills/>
+                            <CardContainer />
+                            <Contact/>
+                        </article>
+                        <aside className="md:col-span-1"></aside>
+                        <Tabbar />
+                    </main>
+                </div>
+            <Footer />  
         </>
     )
 }
